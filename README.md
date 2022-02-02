@@ -10,9 +10,13 @@
 
 Install using .bin file
 
-Download latest compiled .bin file from nightly-deauther/releases
-Install esptool
-Connect your ESP8266
-Flash it by running esptool.py -p <PORT> -b 115200 write_flash 0 <BIN_FILE>.
-Be sure to replace <PORT> with the serial port
+-  Download latest compiled .bin file from nightly-deauther/releases
+<br>
+-  Install esptool
+<br>
+-  Connect your ESP8266
+<br>
+-  Flash it by running esptool.py -p <PORT> -b 115200 write_flash 0 <BIN_FILE>.
+<br>
+-  Be sure to replace <PORT> with the serial port
 and <BIN_FILE> with the path of the previously download .bin file.
